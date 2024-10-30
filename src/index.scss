@@ -1,0 +1,63 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500;600&display=swap');
+
+body {
+  overflow-x: hidden;
+}
+
+
+@font-face {
+  font-family: 'Gilroy';
+  src: url("../src/assets/fonts/Gilroy-Heavy.ttf") format("truetype");
+  font-weight: 900;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Gilroy';
+  src: url("../src/assets/fonts/Gilroy-Bold.ttf") format("truetype");
+  font-weight: 700;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Gilroy';
+  src: url("../src/assets/fonts/Gilroy-Semibold.ttf") format("truetype");
+  font-weight: 600;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Gilroy', serif;
+  src: url("../src/assets/fonts/Gilroy-Medium.ttf") format("truetype");
+  font-weight: 500;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Gilroy';
+  src: url("../src/assets/fonts/Gilroy-Light.ttf") format("truetype");
+  font-weight: 300;
+  font-display: swap;
+}
+
+
+
+a {
+  text-decoration: none !important;
+  color: inherit;
+}
+
+
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Gilroy', sans-serif;
+}
+
+@font-face {
+  font-family: 'Century';
+  src: url("../src/assets/fonts/CenturyPSPro.ttf") format("truetype");
+  font-weight: normal;
+  font-display: swap;
+}

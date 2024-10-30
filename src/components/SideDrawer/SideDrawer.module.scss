@@ -1,0 +1,64 @@
+@import '../../styles/variables.scss';
+
+.SideDrawer {
+    position: fixed;
+    display: block;
+    width: 300px;
+    max-width: 75%;
+    height: 100%;
+    right: 0;
+    top: 0;
+    z-index: 200;
+    padding: 32px 0;
+    background: #ffffff;
+    box-sizing: border-box;
+    -webkit-transition: transform 0.3s ease-out;
+    transition: transform 0.3s ease-out;
+}
+
+.Logo {
+    font-family: 'Poppins', serif;
+    font-size: 30px;
+    color: $purple;
+    padding: 0 30px;
+    padding-bottom: 20px;
+}
+
+.hr {
+    opacity: .6;
+}
+
+.NavItems {
+    margin: 1em 0;
+    text-transform: capitalize;
+    cursor: pointer;
+    padding: 5px 30px;
+    color: #000000;
+}
+
+.Nav {
+    font-size: 18px;
+    font-weight: 600;
+    margin-top: 10px;
+
+    a {
+        text-decoration: none;
+        color: #000000;
+    }
+}
+
+@media (min-width: 961px) {
+    .SideDrawer {
+        display: none;
+    }
+}
+
+.Open {
+    -webkit-transform: translate(0);
+    transform: translateX(0)
+}
+
+.Close {
+    -webkit-transform: translateX(100%);
+    transform: translateX(100%)
+}

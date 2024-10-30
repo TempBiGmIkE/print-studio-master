@@ -1,0 +1,22 @@
+@import './variables.scss';
+@import './breakpoints.scss';
+@import './pages/landing.scss';
+@import './pages/login.scss';
+@import './pages/signup.scss';
+@import './pages/productdetail.scss';
+@import './pages/commerce.scss';
+@import './pages/checkout.scss';
+@import './components/arrows.scss';
+@import './components/footer.scss';
+@import './components/navigation.scss';
+@import './components/commerceslider.scss';
+@import './components/landingbottom.scss';
+@import './components/landingtop.scss';
+@import './components/productslider.scss';
+@import './components/testimonial.scss';
+@import './components/upload.scss';
+
+.max-width {
+    max-width: 1440px;
+    margin: 0 auto;
+}
